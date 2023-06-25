@@ -12,7 +12,7 @@ public class ReverseTheDigitsOfANumber {
 			num = num / 10;
 			
 		}
-		System.out.println(s);
+		System.out.println("reversed number>> "+s);
 	}
 
 }
