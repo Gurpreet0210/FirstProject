@@ -8,7 +8,7 @@ public class ReverseTheDigitsOfANumber {
 		String s = "";
 		
 		while (num > 0 ) {
-			s = s + Integer.toString(num % 10);
+			s = s + (num % 10);
 			num = num / 10;
 			
 		}
